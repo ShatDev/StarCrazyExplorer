@@ -1,0 +1,238 @@
+.newsletter-subscribe {
+  color:#313437;
+  background-color:#fff;
+  padding:50px 0;
+}
+.text-center {
+  color: white;
+}
+
+.newsletter-subscribe p {
+  color: white;
+  line-height:1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
+}
+
+.note {
+  color: red;
+  font-size: 18px;
+}
+
+.newsletter-subscribe .intro {
+  font-size: 16px;
+  max-width: 79%;
+  margin: 0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+  font-size: 20px;   
+  margin: 30px 5%;
+}
+
+.newsletter-subscribe form {
+  justify-content:center;
+}
+
+.newsletter-subscribe form .form-control {
+  background:#eff1f4;
+  border:none;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  width: 23rem;
+  margin: 18px;
+  /*margin-right:10px;
+  min-width:250px;*/
+}
+
+.newsletter-subscribe form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity:1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform:translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color:#E58F25 !important;
+  color:#fff;
+  outline:none !important;
+}
+
+.frame {
+  width: 255px;
+  height: 310px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.nft_id {
+  position: relative;
+  top: -3px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.qlty {
+  width: 150px;
+  height: 41px;
+  position: relative;
+  top: 236px;
+  left: 53px;
+  background: #f2fffd;
+  border-radius: 25px;
+}
+
+.dots img {
+  vertical-align: middle;
+  border-style: none;
+  width: 13.2%;
+  margin-left: -7.1px;
+}
+
+.dots {
+position: relative;
+left: 12px;
+}
+
+.nft_digp {
+text-align: center;
+font-size: 17px;
+font-weight: bold;
+color: white;
+}
+
+img.tail {
+/* display: none; */
+position: absolute;
+left: 0px;
+z-index: 0;
+}
+
+img.tattoo {
+/* display: none; */
+position: absolute;
+left: 0px;
+z-index: 3;
+}
+
+img.mouth {
+/* display: none; */
+position: absolute;
+z-index: 3;
+}
+
+img.head {
+/* display: none; */
+position: absolute;
+z-index: 3;
+}
+
+img.eye {
+/* display: none; */
+position: absolute;
+z-index: 3;
+}
+
+img.ear {
+/* display: none; */
+position: absolute;
+z-index: 3;
+}
+
+img.skin {
+position: absolute;
+z-index: 1;
+}
+
+img.beard {
+/* display: none; */
+position: absolute;
+z-index: 3;
+}
+
+.parts {
+position: relative;
+  /* display: none; */
+  top: 84px;
+  left: 75px;
+}
+
+.cat_body {
+position: relative;
+height: 0px;
+}
+
+
+.stars, .twinkling, .clouds {
+position:absolute;
+display:block;
+top:0; bottom:0;
+left:0; right:0;
+width:100%; height:100%;
+}
+
+.stars, .newsletter-subscribe {
+z-index: 0;
+background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+}
+
+.twinkling{
+z-index: 1;
+background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+animation: move-twink-back 200s linear infinite;
+}
+
+.clouds{
+z-index: 2;
+  background:transparent url('https://image.ibb.co/bT4N7T/clouds.png') repeat top center;
+animation: move-clouds-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+from {background-position:0 0;}
+to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+from {background-position:0 0;}
+to {background-position:10000px 0;}
+}
+
+.container {
+z-index: 3;
+position: relative;
+}
+
+.loadingoverlay {
+  background: rgba(255, 255, 255, 0.5) !important;
+}

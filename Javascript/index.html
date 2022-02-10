@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarCrazy Explorer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    
+	<script src="js/iotex-antenna.browser.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<div class="newsletter-subscribe">
+		<div class="stars"></div>
+		<div class="twinkling"></div>
+		<div class="clouds"></div>
+
+		<div class="container">
+			<div class="intro">
+				<h1 class="text-center">StarCrazy Explorer</h2>
+					<p class="text-center">Input a valid iotex address below to view player's NFTs.</p>
+
+					<h5 class="text-center note">Note: Explorer is beta version and will only show Starz. Will show
+						planets soon</h2>
+			</div>
+			<form class="form-inline" method="get">
+				<div class="form-group"><input class="form-control" required id="address" type="address" name="address" 
+						placeholder="io1hy9w96v7g...........k9h"></div>
+				<div class="form-group"><button class="btn btn-primary" type="button">Explore </button></div>
+			</form>
+		</div>
+		<div id="output"></div>
+		<div class="container result">
+			<div class="intro totalDigP_Wrapper">			
+			</div>
+			<div class="nft_wrapper row">
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/abi.js"></script>
+	<script src="js/bodyinfo.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/bignumber.js"></script>
+	<script src="js/notify.js"></script>
+	<script src="js/ejs.min.js"></script>
+	<script src="js/loadingoverlay.js"></script>
+	<script src="js/index.min.js"></script>	
+</body>
+
+</html>
