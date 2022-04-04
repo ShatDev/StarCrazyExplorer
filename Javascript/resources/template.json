@@ -32,43 +32,9 @@ templates =
                     <div class="nft_id">#<%= nft.nft_id %> </div>
                 </div>
             </div>
-            
             <div class="nft_digp">
                 <span>DigP: <%= nft.nft_digp %></span>
-                <span>Power: <%= nft.nft_baseFightAttr?.battlePower %></span>
-                <span>Element: 
-                    <img class="elementImg" src="<%= 'cat/battle/' +  nft.nft_elementType.image  + '.png' %> ">                              
-                    (<%= nft.nft_elementType.type %>)
-                </span>
-
-                <span class="nft_battleAttr">
-                    Attack:
-                    <img class="attrmg" src="<%= 'cat/battle/' +  'attr_1'  + '.png' %> "> 
-                    <%= nft.nft_baseFightAttr.atk %>
-                 </span>
-                <span class="nft_battleAttr">
-                    Hp:
-                    <img class="attrmg" src="<%= 'cat/battle/' +  'attr_2'  + '.png' %> "> 
-                    <%= nft.nft_baseFightAttr.hp %>
-                </span>
-                <span class="nft_battleAttr">
-                    Speed:
-                    <img class="attrmg" src="<%= 'cat/battle/' +  'attr_3'  + '.png' %> ">  
-                    <%= nft.nft_baseFightAttr.spd %>
-                </span>
-                <span class="nft_battleAttr">
-                    Critical: 
-                    <img class="attrmg" src="<%= 'cat/battle/' +  'attr_4'  + '.png' %> "> 
-                    <%= nft.nft_baseFightAttr.chr %>
-                </span>
-                <span class="nft_battleAttr">
-                    Dodge: 
-                    <img class="attrmg" src="<%= 'cat/battle/' +  'attr_5'  + '.png' %> "> 
-                    <%= nft.nft_baseFightAttr.br %>
-                </span>
-              
-            </div> 
-            
+            </div>
         </div>
     <% }); %>`
 

@@ -236,3 +236,15 @@ position: relative;
 .loadingoverlay {
   background: rgba(255, 255, 255, 0.5) !important;
 }
+
+.nft_digp span {
+  display: block;
+}
+
+img.elementImg {
+  max-width: 30px;
+}
+
+img.attrmg {
+  max-height: 23px;
+}
