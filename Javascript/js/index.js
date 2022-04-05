@@ -128,11 +128,16 @@
 
             var element = {
                 image: "",
-                type: ""
-            };
+                type: "",
+                buffDescription: "",
+            };       
 
-            if (bornFightBuff != null) type = 0; // set to zero so that it will trigger default image for buff nft
-
+            if (bornFightBuff != null) {
+               // set to zero so that it will trigger default image for buff nft
+               type = 0;
+               if (skillbuff[bornFightBuff.id] != null) element.buffDescription = skillbuff[bornFightBuff.id].note_eng
+            }
+            
             switch(type) {
                 case 1:
                     element.image = "StarArena_023";

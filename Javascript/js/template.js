@@ -41,6 +41,15 @@ templates =
                     (<%= nft.nft_elementType.type %>)
                 </span>
 
+                <%if (nft.nft_elementType.buffDescription != "") { %>
+
+                    <span class="buffDescription">  
+                        <%= nft.nft_elementType.buffDescription %>
+                    </span>
+
+                    <% } 
+                %>
+
                 <span class="nft_battleAttr">
                     Attack:
                     <img class="attrmg" src="<%= 'cat/battle/' +  'attr_1'  + '.png' %> "> 
