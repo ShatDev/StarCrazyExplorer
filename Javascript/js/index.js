@@ -29,7 +29,7 @@
         const sendGetRequest = async () => {
 
             var model = []
-            var accountAddress = $("#address").val();
+            var accountAddress = IoTexAddressFormat($("#address").val());
             
             var antenna = null;
             var contract = null;
@@ -296,6 +296,12 @@
                 , model);
             $('.nft_wrapper').html(html);
         };
+
+        const IoTexAddressFormat = function (addr) {
+
+            return Antenna.modules.Address.from(addr).string()
+
+        }
 
         $(".btn-primary").on('click',async function(){
 
